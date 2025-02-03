@@ -26,7 +26,11 @@ public class Main
         box[0][4] = new Candy("orange");
         BoxOfCandy c = new BoxOfCandy(box);
         System.out.println(c);
-        System.out.println(b.removeNextByFlavor("cherry"));
-        System.out.println(b);
+        System.out.println(c.removeNextByFlavor("cherry"));
+        System.out.println(c);
+        System.out.println(c.removeNextByFlavor("lime"));
+        System.out.println(c);
+        System.out.println(c.removeNextByFlavor("grape"));
+        System.out.println(c);
     }
 }
